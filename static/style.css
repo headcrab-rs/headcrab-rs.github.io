@@ -32,6 +32,8 @@ body {
     padding: 30pt;
     font: 12pt 'Open Sans', Helvetica, sans-serif;
     margin: 0pt auto;
+    background: white;
+    color: #203040;
 }
 
 @media only screen and (min-width: 1500px) {
@@ -109,4 +111,8 @@ header nav ul li:first-of-type {
 
 article h2 {
     color: #ea3e00;
+}
+
+article figure {
+    text-align: center;
 }
