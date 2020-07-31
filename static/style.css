@@ -116,3 +116,10 @@ article h2 {
 article figure {
     text-align: center;
 }
+
+article .banner {
+    background: #fafafa;
+    font-weight: bold;
+    text-align: center;
+    padding: 5pt;
+}

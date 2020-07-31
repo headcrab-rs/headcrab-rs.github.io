@@ -3,6 +3,8 @@ layout: default
 title: Headcrab, a modern Rust debugger library
 ---
 
+<div class="banner"><a href="/2020/07/31/july-update.html">July 2020 progress report</a></div>
+
 <img src="/static/headcrab.svg" style="width: 220pt; float: right; margin-left: 10pt;" />
 
 This project's goal is to provide a modern debugger library for Rust so that you could build custom debuggers specific for your application. It will be developed with modern operating systems and platforms in mind.
