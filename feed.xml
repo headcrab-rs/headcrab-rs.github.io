@@ -5,8 +5,8 @@
         <channel>
                 <title>Headcrab</title>
                 <description>A modern Rust debugger library</description>
-                <link>http://headcrab-rs.github.io</link>
-                <atom:link href="https://headcrab-rs.github.io/feed.xml" rel="self" type="application/rss+xml" />
+                <link>http://headcrab.rs</link>
+                <atom:link href="https://headcrab.rs/feed.xml" rel="self" type="application/rss+xml" />
                 {% for post in site.posts limit:10 %}
                         <item>
                                 <title>{{ post.title | xml_escape }}</title>
@@ -19,8 +19,8 @@
                                         <description>{{ post.content | xml_escape }}</description>
                                 {% endif %}
                                 <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-                                <link>https://headcrab-rs.github.io{{ post.url }}</link>
-                                <guid isPermaLink="true">https://headcrab-rs.github.io{{ post.url }}</guid>
+                                <link>https://headcrab.rs{{ post.url }}</link>
+                                <guid isPermaLink="true">https://headcrab.rs{{ post.url }}</guid>
                         </item>
                 {% endfor %}
         </channel>
