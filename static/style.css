@@ -109,7 +109,7 @@ header nav ul li:first-of-type {
     padding-left: 0;
 }
 
-article h2 {
+article h2, article h3 {
     color: #ea3e00;
 }
 
