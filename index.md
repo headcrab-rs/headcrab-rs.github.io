@@ -3,7 +3,7 @@ layout: default
 title: Headcrab, a modern Rust debugger library
 ---
 
-<div class="banner"><a href="/2020/08/31/august-update.html">August 2020 progress report</a></div>
+<div class="banner"><a href="/2020/10/01/september-update.html">September 2020 progress report</a></div>
 
 <img src="/static/headcrab.svg" style="width: 220pt; float: right; margin-left: 10pt;" />
 
